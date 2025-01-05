@@ -26,7 +26,7 @@ connectWalletBtn.addEventListener('click', () => {
     statusMessage.textContent = 'Connecting to your TON wallet...';
 
     setTimeout(() => {
-        statusMessage.textContent = 'oops try again something wents wrong!';
+        statusMessage.textContent = 'Wallet connection successful';
     }, 2000);
 });
 
